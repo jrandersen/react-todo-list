@@ -3,7 +3,7 @@ A simple React todo-list using React, Chakra UI, React icons. Tasks are currentl
 
 ![image](readme/todolist.png)
 
-This example has deon some rounds, I dont know who to credit, but I have found example [here](https://github.com/raminhuk/react-todo-list) and [here](https://github.com/erfjs/Todo-list) to one with Supabase [here](https://github.com/voidranjer/supabase-todo)
+This example has done some rounds, I dont know who to credit, but I have found examples [here](https://github.com/raminhuk/react-todo-list) and [here](https://github.com/erfjs/Todo-list) and one updated with Supabase [here](https://github.com/voidranjer/supabase-todo)
 
 ## 🚀 Getting Started
 
