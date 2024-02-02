@@ -1,8 +1,9 @@
 # React todo list
-A simple React todo-list using React, Chakra UI, React icons, 
-Tasks are currently stored in localstorage, this is all client. I may ause this to add Redis or maybe combine with another small DB service in future.
+A simple React todo-list using React, Chakra UI, React icons. Tasks are currently stored in localstorage, this is all client. I may use this as a template to add Redis or maybe another small DB service in the near future.
 
 ![image](readme/todolist.png)
+
+This example has deon some rounds, I dont know who to credit, but I have found example [here](https://github.com/raminhuk/react-todo-list) and [here](https://github.com/erfjs/Todo-list) to one with Supabase [here](https://github.com/voidranjer/supabase-todo)
 
 ## 🚀 Getting Started
 
