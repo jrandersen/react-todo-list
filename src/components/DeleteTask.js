@@ -5,13 +5,11 @@ import {
     ModalHeader,
     ModalFooter,
     ModalBody,
-    ModalCloseButton,
     Button,
     Text,
     useDisclosure,
     IconButton
   } from '@chakra-ui/react'
-  import { useState } from 'react';
   import React from 'react';
   import { FiTrash2 } from 'react-icons/fi'
 

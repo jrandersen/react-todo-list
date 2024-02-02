@@ -1,7 +1,7 @@
-import { Heading, IconButton, VStack, useColorMode, useDisclosure, useToast, Link, Flex } from "@chakra-ui/react";
+import { Heading, IconButton, VStack, useColorMode,  useToast, Link, Flex } from "@chakra-ui/react";
 import TaskList from './components/tasks';
 import AddTask from './components/AddTask';
-import { FaSun, FaMoon, FaGithub, FaLinkedin, FaInstagram, FaTwitter, FaFacebook } from 'react-icons/fa'
+import { FaSun, FaMoon, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
 import { useState, useEffect } from 'react'
 
 function App() {

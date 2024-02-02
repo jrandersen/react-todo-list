@@ -14,7 +14,7 @@ import {
   } from '@chakra-ui/react'
   import { useState } from 'react';
   import React from 'react';
-  import { FiTrash2, FiEdit } from 'react-icons/fi'
+  import { FiEdit } from 'react-icons/fi'
 
 function UpdateTask({ task, updateTask }) {
     const { isOpen, onOpen, onClose } = useDisclosure()

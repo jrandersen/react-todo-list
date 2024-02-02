@@ -1,5 +1,8 @@
 # React todo list
-A simple React todo-list using React, Chakra UI, React icons
+A simple React todo-list using React, Chakra UI, React icons, 
+Tasks are currently stored in localstorage, this is all client. I may ause this to add Redis or maybe combine with another small DB service in future.
+
+![image](readme/todolist.png)
 
 ## 🚀 Getting Started
 

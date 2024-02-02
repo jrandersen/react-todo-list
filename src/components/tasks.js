@@ -1,7 +1,7 @@
 import React from 'react'
 import UpdateTask from './UpdateTask';
 import { DeleteTask, DeleteAllTask } from './DeleteTask';
-import { HStack, Box, VStack, IconButton, Flex, Button, Text, StackDivider } from '@chakra-ui/react'
+import { HStack, Box, VStack, Flex, Text, StackDivider } from '@chakra-ui/react'
 import { Image } from '@chakra-ui/react'
 import img from '../images/empty.svg'
 
@@ -37,13 +37,13 @@ function TaskList({ tasks, updateTask, deleteTask, deleteTaskAll, checkTask }) {
             {tasks.map((task) =>(
                 <HStack
                 key={task.id}
-                opacity={task.check == true ? '0.2' : '1'}
+                opacity={task.check === true ? '0.2' : '1'}
                 >
                     <Text
                         w='100%' 
                         p='8px'
                         borderRadius='lg'
-                        as={task.check == true ? 's' : ''}
+                        as={task.check === true ? 's' : ''}
                         cursor='pointer'
                         onClick={() => checkTask(task.id)}>
                         {task.body}
